@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    font-size: 35px;
+    /* color: #f17e03; */
+    padding: 5px;
+    margin: 5px;
+    text-shadow: 2px 2px 8px #ecc978;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(74, 222, 5, 0.5);
+ 
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color: #fac031;
+}
+
+section nav .icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .icon i:hover{
+    color: #fac031;
+}
+
+
+
+.banner {
+
+    background-image: url(photo/library2.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+  }
+
+
+
+section p{
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 123px;
+    bottom: 120px;
+    line-height: 22px;
+}
+
+
+
+#aboutUs{
+    text-align: center;
+}
+
+
+
+
+/* Styles for Two Divs in One Row */
+.row {
+    display: flex;
+    justify-content: center;
+    
+     /* Add some space between the banner and the row */
+  }
+  
+  .left-div {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right-div {
+    flex: 1;
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .right-div p {
+    font-size: 18px;
+    background-color: ;
+    
+  }
+
+  .last{
+    text-align: center;
+    color: orange;
+  }
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 25px 0 0 20px;
+    background:black;
+    color: white;
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover{
+    color: #1fe737;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer .end span{
+    color: #1fe737;
+    margin-left: 10px;
+}
+
+.ilogo{
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#header {
+    width: 700px;
+    color: maroon;
+    font-size: 32px;
+    padding: 10px 10px 10px 0px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid green;
+}
+
+#footer {
+    border-top: 1px solid green;
+    margin-top: 20px;
+    color: #336699;
+    padding-top: 10px;  
+}
+
+
+
+
+
+
+
+
